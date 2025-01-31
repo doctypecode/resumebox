@@ -1,0 +1,28 @@
+.templateContainer{
+    padding: 20pt;
+}
+
+.header{
+    text-align: center;
+    font-size: large;
+    margin-bottom:7mm;
+}
+
+.section{
+    border-top: 1.5px solid #9d9d9d;
+    padding-top: 2mm;
+    margin-bottom: 7mm;
+    display: grid;
+    grid-template-columns: 100pt 1fr;
+    gap: 1pt;
+    &>.sectionTitle{
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.15mm;
+        font-family:"Roboto Mono", 'serif'
+    }
+
+    &.sectionContent{
+
+    }
+}
